@@ -170,30 +170,44 @@
 #endif
 
 #ifndef E0_STEP_PIN
-  #define E0_STEP_PIN                         26
+  #define E0_STEP_PIN                         26   // تخصيص STEP لأكسترودر 0
 #endif
 #ifndef E0_DIR_PIN
-  #define E0_DIR_PIN                          28
+  #define E0_DIR_PIN                          28   // تخصيص DIR لأكسترودر 0
 #endif
 #ifndef E0_ENABLE_PIN
-  #define E0_ENABLE_PIN                       24
+  #define E0_ENABLE_PIN                       24   // تخصيص ENABLE لأكسترودر 0
 #endif
 #ifndef E0_CS_PIN
-  #define E0_CS_PIN                      AUX2_08
+  #define E0_CS_PIN                      AUX2_08   // تخصيص CS لأكسترودر 0
 #endif
 
 #ifndef E1_STEP_PIN
-  #define E1_STEP_PIN                         36
+  #define E1_STEP_PIN                         36   // تخصيص STEP لأكسترودر 1
 #endif
 #ifndef E1_DIR_PIN
-  #define E1_DIR_PIN                          34
+  #define E1_DIR_PIN                          34   // تخصيص DIR لأكسترودر 1
 #endif
 #ifndef E1_ENABLE_PIN
-  #define E1_ENABLE_PIN                       30
+  #define E1_ENABLE_PIN                       30   // تخصيص ENABLE لأكسترودر 1
 #endif
 #ifndef E1_CS_PIN
-  #define E1_CS_PIN                      AUX2_07
+  #define E1_CS_PIN                      AUX2_07   // تخصيص CS لأكسترودر 1
 #endif
+
+#ifndef E2_STEP_PIN
+  #define E2_STEP_PIN                         42   // تخصيص STEP لأكسترودر 2
+#endif
+#ifndef E2_DIR_PIN
+  #define E2_DIR_PIN                          44   // تخصيص DIR لأكسترودر 2
+#endif
+#ifndef E2_ENABLE_PIN
+  #define E2_ENABLE_PIN                       46   // تخصيص ENABLE لأكسترودر 2
+#endif
+#ifndef E2_CS_PIN
+  #define E2_CS_PIN                      AUX2_06   // تخصيص CS لأكسترودر 2
+#endif
+
 
 //
 // Temperature Sensors
